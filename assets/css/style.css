@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    /* background-image: linear-gradient(to left, #feada6 0%, #f5efef 100%);
+     */
+     background-image: url("../images/vectors-1686694.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+
+}
+nav{
+    /* background-color:red; */
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius:15px ;
+}
+.cat_nav
+{
+    /* background-color: maroon; */
+}
+.image_profile{    
+    max-width: 3.5%;
+    height: auto;
+    border-radius: 25px;
+}
+nav div .brand_logo{
+    text-transform: capitalize;
+    font-size: 1.6rem !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: snow !important;
+}
+nav div .brand_logo:hover{
+    color:gainsboro !important;
+    transition: 0.2s;
+}
+.nav_item a{
+    text-transform: capitalize;
+    font-size: 15.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white !important;
+
+}
+.heading
+{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 7% !important;
+}
+.heading a{
+    margin-top: 20px;
+}
+.button_link{
+    width: 120px;
+    border-radius: 20px;
+}
+footer{
+    /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+    
+background: linear-gradient(90deg, rgba(25,10,5,1) 0%, rgba(135,0,0,1) 100%);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+.product_row{
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+.buy_button{
+    border: solid 2px;
+    border-radius: 25px ;
+    background: none;
+    color:royalblue;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.buy_button:hover{
+    background-color: royalblue;
+    color: white;
+}
+.Add_button{
+    border: solid 2px;
+    border-radius: 25px;
+    background: none;
+    color:green;
+    font-weight:bold;
+    text-transform: upper
+}
+.Cat_btn{
+    /* border: solid 2px white; */
+    border-radius: 7px;
+    
+}
+.Cat_btn:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: black !important;
+}
+.search_form{
+    min-width: 40%;
+    position: relative;
+    background-color: transparent ;
+    border: solid 2px white;
+    border-radius: 25px;
+}
+/* 
+.search_form:hover{
+    position: absolute;
+    height: 100vh !important;
+    transition:1s !important;
+} */
+.search_input{
+    background-color: transparent ;
+    border: solid 0px white;
+    border-radius: 25px;
+    outline: none;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important
+    
+}
+.search_input::placeholder{color: white;}
+.search_input:focus{
+    background-color: transparent;
+    border-color: transparent;
+    color: white !important;
+}
+.search_submit>i{
+    color: white;
+}
+.img_card{
+    height: 25%;
+    width: auto;
+}
+.cart_div{
+    border-radius: 25px;
+  }

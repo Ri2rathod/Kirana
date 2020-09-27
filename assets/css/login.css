@@ -1,0 +1,54 @@
+.login_div{
+    border-radius: 25px;
+    background: white;
+    /* background-image: linear-gradient( 68.4deg,  rgba(248,182,204,1) 0.5%, rgba(192,198,230,1) 49%, rgba(225,246,240,1) 99.8% ); */
+}
+.form_input_div{
+
+    border-bottom: 1px solid  black !important;
+}
+.login_div>form>div>div>input[type="email"],.login_div>form>div>div>input[type="password"]{
+    border: none;
+    /* border: solid  1px black !important; */
+    border-radius: 0px !important;
+    background: transparent;
+    color: black;
+    transition: 0.5s;
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.login_div>form>div>div>input:focus{
+    
+    transition: 0.5s;
+}
+
+.login_div>form>div>input[type="submit"]
+{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+   padding: 10px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   
+   border-radius: 10px;
+   display: block;
+}
+
+.login_div>form>div>input[type="submit"]:hover
+{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 5px #414345;
+}
+.API>a{
+    border-radius: 50px;
+    /* height: 9vh; */
+}
+.API>a:hover{ box-shadow: 0px 0px 7px #414345;
+}

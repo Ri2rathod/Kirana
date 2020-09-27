@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/login.css">
+       
+        <title>Product</title>
+    </head> 
+    <body>
+
+    <nav class="navbar navbar-expand-md rounded-0 navbar-light ">
+        <div class="container-fluid">
+            <div class="brand">
+                <a class="navbar-brand brand_logo" href="#"><img src="assets/images/logo.png" alt="" class="d-inline-block align-top " width="50 my-auto" height="40">Shopify</a>
+            </div>
+                    <div class="search_form my-auto justify-content-center mx-md-auto">
+                        <form class=" d-flex  ">
+                            <input class="form-control mr-2 search_input text-white  " id="selector" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn border-0 search_submit " type="submit"><i class="fas fa-search"></i></button>
+                        
+                        </form>
+                        <!-- <hr class="w-50 py-1 mx-auto text-white">
+                        <div class="container-fluid">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between  align-items-center">
+                                    Cras justo odio
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    <ul class="navbar-nav mb-2 mb-md-0 ml-md-auto nav_item">
+                        <li class="nav-item mr-md-3">
+                            <a class="nav-link active"><i class="fas fa-sign-in-alt mr-1"></i>Login</a>
+                        </li>
+                        <li class="nav-item mr-md-5">
+                            <a class="nav-link" href="cart.html">
+                                <i class="fas fa-shopping-cart fa-xl">
+                                <span class="badge bg-light text-dark">9</span>
+                            </i>
+                            </a>
+                        </li>
+                    </ul>
+                            <!-- <img src="assets/images/41Jp8x8jhLL.jpg" class="img-responsive  image_profile  ml-md-auto" onclick="" alt=""> -->
+                    
+                        <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarText1" aria-controls="navbarText1" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-12 col-sm-12 mx-auto  py-4 px-5 my-4 login_div shadow ">
+                <form class="login_form">
+                    <h3 class="display-5 text-center">Login</h3>
+                    <hr class="w-50 mx-auto my-4">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <div class="d-flex form_input_div">
+                          <i class="fas fa-envelope my-auto"></i><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Type Your Email Adress" aria-describedby="emailHelp">
+                      </div>
+                      
+                    </div>
+                    
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <div class="d-flex form_input_div">
+                        <i class="fas fa-lock my-auto"></i><input type="password" class="form-control" placeholder="Type Your Password" id="exampleInputPassword1">
+                      </div>
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" class="btn btn btn-block" value="Login">
+                    </div>
+                </form>
+                
+                <div class="Login_through_api">
+                    <div class="d-flex  my-4">
+                        <hr class="w-25 ml-auto mr-1"><P class="">or singup using</P><hr class="w-25 mr-auto ml-1">
+                    </div>
+                    <div class="API d-flex justify-content-center">
+                        <a href="http://" class="btn btn-danger m-2 p-3 btn_google"><i class="fab fa-google fa-2x"></i></a>
+                        <a href="http://" class="btn btn-primary m-2 p-3 btn-facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="http://" class="btn btn-success m-2 p-3 btn-twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <footer class="text-light container-fluid w-100 mt-4 shadow pt-5">
+        <h3 class="text-capitalize text-center display-6">Copy Right</h3>
+        <hr class="w-50 mx-auto"/>
+        <div class="">
+        <div class="row">
+            <div class="col-11 col-md-12 col-lg-11  p-3  m-auto d-md-inline-flex">
+            <div class="col-md-4 ">
+                <h1 class="h3 text-center">Social Media</h1>
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item bg-transparent mr-4"><i class="fab fa-facebook-f"></i></li>
+                    <li class="list-inline-item bg-transparent mr-4"><i class="fab fa-twitter"></i></li>
+                    <li class="list-inline-item  bg-transparent mr-4"><i class="fab fa-instagram"></i></li>
+                    <li class="list-inline-item  bg-transparent mr-4"><i class="fab fa-reddit"></i></li>
+                </ul>
+            </div>
+            <div class="col-md-4 ">
+                <h1 class="h3 text-center">Term & Condition</h1>
+                <ul class="list-group-flush text-center">
+                    <li class="list-group-item bg-transparent">Policy</li>
+                    <li class="list-group-item bg-transparent">Term & Condition</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h1 class="h3 text-center">Navigation</h1>
+                <ul class="list-group-flush text-center">
+                    <li class="list-group-item bg-transparent"><i class="fas fa-home"></i> Home</li>
+                    <li class="list-group-item bg-transparent"><i class="fas fa-images"></i> Gallary</li>
+                    <li class="list-group-item  bg-transparent"><i class="fab fa-usps"></i> Services</li>
+                    <li class="list-group-item  bg-transparent"><i class="fas fa-id-badge"></i> Contact Us</li>
+                </ul>
+            </div>
+            
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script>
+//         const signUpButton = document.getElementById('signUp');
+// const signInButton = document.getElementById('signIn');
+// const container = document.getElementById('container');
+
+// signUpButton.addEventListener('click', () => {
+// 	container.classList.add("right-panel-active");
+// });
+
+// signInButton.addEventListener('click', () => {
+// 	container.classList.remove("right-panel-active");
+// });
+</script>
+    <!-- JavaScript and dependencies -->
+    
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+</body>
+</html>
