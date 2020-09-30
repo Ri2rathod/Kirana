@@ -49,14 +49,20 @@ nav div .brand_logo:hover{
 {
     background-color: black;
     color: white;
-    opacity: 0.7;
-    padding: 20px;
+    /* opacity: 0.7; */
+    padding: 0;
     text-align: center;
     border-radius: 25px;
-    margin-top: 7% !important;
+    margin-top: 2% !important;
 }
 .heading a{
     margin-top: 20px;
+}
+.header_carousel_btn{
+    /* background: white !important;
+    border: solid white 2px;
+    list-style: none;
+    overflow: hidden; */
 }
 .button_link{
     width: 120px;
@@ -143,4 +149,3 @@ background: linear-gradient(90deg, rgba(25,10,5,1) 0%, rgba(135,0,0,1) 100%);
 .cart_div{
     border-radius: 25px;
   }
-  
